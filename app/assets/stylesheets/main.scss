@@ -1,0 +1,73 @@
+@import 'variables';
+@import 'font-awesome';
+@import 'colors';
+@import 'commons';
+@import 'navigation_bar';
+
+body {
+  background-color: $clouds;
+  font-family: 'FontAwesome';
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+  background-color: $white;
+  margin-top: $margin-top-separator;
+}
+
+.gender {
+  width: 100%;
+  height: $brand-size;
+
+  .guys-button {
+    @extend .big-button;
+
+    &:hover {
+      background-color: $asfalt;
+      .guys-arrow-down {
+        border-top-color: $asfalt;
+      }
+    }
+
+    .guys-arrow-down {
+      @extend .arrow-down;
+    }
+  }
+
+  .girls-button {
+    @extend .big-button;
+
+    &:hover {
+      background-color: $pink;
+      .girls-arrow-down {
+        border-top-color: $pink;
+      }
+    }
+
+    .girls-arrow-down {
+      @extend .arrow-down;
+    }
+  }
+}
+
+
+.black-separator {
+  @extend .separator;
+  background-color: $black;
+}
+
+.gray-separator {
+  @extend .separator;
+  background-color: $dark-gray;
+}
+
+@media all and (max-width: 799px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .menu-button {
+    width: 100% !important;
+  }
+}

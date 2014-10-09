@@ -1,0 +1,69 @@
+@import 'variables';
+@import 'colors';
+@import 'commons';
+
+
+.main-menu {
+  width: 100%;
+  background-color: $abestos;
+  height: $brand-size;
+}
+
+.menu-buttons {
+   ul {
+     padding: 0;
+   }
+}
+.brand {
+  background-color: $red;
+  color: $white;
+  height: $brand-size;
+  width: 60px;
+  line-height: $brand-size;
+  text-align: center;
+  float: left
+}
+
+.search {
+  float: left;
+
+  input {
+    height: 36px;
+    padding: 0;
+    margin: 0;
+    border: 2px solid;
+    border-color: $red;
+    padding-left: 30px;
+    font-size: 15px;
+    color: $alizarin;
+    float: left;
+
+    background: image_url('search.png');
+    background-repeat: no-repeat;
+    background-color: $white;
+    background-size: 25px 25px;
+    background-position: left center;
+    background-origin:padding-box;
+  }
+
+  input:focus {
+    outline: none;
+  }
+}
+
+.menu-button-dark {
+  @extend .menu-button;
+  background-color: $dark-gray;
+}
+
+.menu-button-light {
+  @extend .menu-button;
+  background-color: $light-gray;
+}
+
+.menu-button-red {
+  @extend .menu-button;
+  background-color: $alizarin;
+}
+
+
