@@ -19,3 +19,5 @@ Ruby on Rails templete:
     <li>CSS3</li>
     <li>SASS</li>
     <li>FONT-AWSOME</li>
+</ul>
+
