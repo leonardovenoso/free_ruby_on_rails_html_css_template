@@ -11,7 +11,7 @@ Skype: leonardo_venoso
 What is included in the template?
 
 
-Ruby on Rails templete:
+Ruby on Rails template:
     * Slim
     * Rails custom_tags
     * HTML
