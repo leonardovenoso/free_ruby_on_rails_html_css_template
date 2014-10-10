@@ -9,8 +9,8 @@ module HomeTagsHelper
         image_tag image_name
       end +
       content_tag(:div, description, class: 'description') +
-      content_tag(:div, "#{old_price} #{t('currency')}", class: 'old-price') +
-      content_tag(:div, "#{price} #{t('currency')}", class: 'price')
+      content_tag(:div, buid_price(old_price), class: 'old-price') +
+      content_tag(:div, buid_price(price), class: 'price')
     end
   end
 end

@@ -1,28 +1,21 @@
-== README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<h1>This is an Online Store FREE template. It means, you can use and modify it</h1>
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+<b>Would you like to hire me?</b>
+
+Contact me at: leonardo.venoso@live.com  | leonardo.ariel.venoso@gmail.com
+Skype: leonardo_venoso
+
+
+
+What is included in the template?
+
+
+Ruby on Rails templete:
+<ul>
+    <li>Slim</li>
+    <li>Rails custom_tags</li>
+    <li>HTML</li>
+    <li>CSS3</li>
+    <li>SASS</li>
+    <li>FONT-AWSOME</li>
