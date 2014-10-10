@@ -34,34 +34,12 @@
       'JAKET
     = render partial: 'home/icon_up'
   .container-products
-    .product
-      .image
-        = image_tag 'vest.jpg'
-      .old-price
-        = buid_price(180)
-      .price
-        = buid_price(150)
-    .product
-      .image
-        = image_tag 'jacket1.jpg'
-      .old-price
-        = buid_price(180)
-      .price
-        = buid_price(150)
-    .product
-      .image
-        = image_tag 'jacket2.jpg'
-      .old-price
-        = buid_price(180)
-      .price
-        = buid_price(150)
-    .product
-      .image
-        = image_tag 'vest.jpg'
-      .old-price
-        = buid_price(180)
-      .price
-        = buid_price(150)
+    = build_product('WOMEN Ultra Light Down Compact Jacket', 150, 120, 'vest.jpg')
+    = build_product('WOMEN Ultra Light Down Compact Jacket', 160, 120, 'jacket1.jpg')
+    = build_product('WOMEN Ultra Light Down Compact Jacket', 170, 120, 'jacket2.jpg')
+    = build_product('WOMEN Ultra Light Down Compact Jacket', 150, 120, 'vest.jpg')
+    = build_product('WOMEN Ultra Light Down Compact Jacket', 130, 120, 'jacket2.jpg')
+
 
 
 .container

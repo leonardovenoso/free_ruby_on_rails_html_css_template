@@ -150,20 +150,33 @@
 }
 
 .product {
+  box-sizing: border-box;
+  background-color: $white;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: $margin-top-separator;
+
   .image {
-    margin-top: $margin-top-separator;
-    margin-right: 10px;
+
+  }
+
+  .description {
+    margin-top: 5px;
+    font-size: 10px;
   }
 
   .old-price {
+    margin-top: 5px;
     font-size: 10px;
     text-decoration: line-through;
     text-align: center;
   }
 
   .price {
+    margin-top: 5px;
     font-size: 13px;
     text-align: center;
+    padding-bottom: 15px;
   }
 }
 
