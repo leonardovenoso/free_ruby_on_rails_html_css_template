@@ -1,7 +1,7 @@
-.wrapper
-  .big-image-container
+.container
+  .container-big-image
     = image_tag 'front2.jpg'
-.wrapper
+.container
   .gender
     .guys-button
       .guys-arrow-down
@@ -11,12 +11,12 @@
       .girls-arrow-down
       .title
         'GIRLS
-.wrapper
+.container
   .black-separator
     .title
       'ULTRA LIGHT DOWN
-.wrapper
-  .wrapper-box-buttons
+.container
+  .container-box-buttons
     .box-button
       'JAKET
     .box-button
@@ -28,31 +28,39 @@
     .box-button
       'COAT
 
-.wrapper
+.container
   .gray-separator
     .title
       'JAKET
     = render partial: 'home/icon_up'
-
-.wrapper
+  .container-products
+    .product
+      = image_tag 'vest.jpg'
+    .product
+      = image_tag 'jacket2.jpg'
+    .product
+      = image_tag 'vest.jpg'
+    .product
+      = image_tag 'jacket1.jpg'
+.container
   .gray-separator
     .title
       'PARKA
     = render partial: 'home/icon_up'
 
-.wrapper
+.container
   .gray-separator
     .title
       'CARDIGAN
     = render partial: 'home/icon_up'
 
-.wrapper
+.container
   .gray-separator
     .title
       'VEST
     = render partial: 'home/icon_up'
 
-.wrapper
+.container
   .gray-separator
     .title
       'COAT

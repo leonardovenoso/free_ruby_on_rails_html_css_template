@@ -9,10 +9,9 @@ body {
   font-family: 'FontAwesome';
 }
 
-.wrapper {
+.container {
   width: 80%;
   margin: auto;
-  background-color: $white;
   margin-top: $margin-top-separator;
 }
 
@@ -63,7 +62,7 @@ body {
 }
 
 @media all and (max-width: 799px) {
-  .wrapper {
+  .container {
     width: 100%;
   }
 
