@@ -150,7 +150,20 @@
 }
 
 .product {
-  margin-top: $margin-top-separator;
-  margin-right: 10px;
+  .image {
+    margin-top: $margin-top-separator;
+    margin-right: 10px;
+  }
 
+  .old-price {
+    font-size: 10px;
+    text-decoration: line-through;
+    text-align: center;
+  }
+
+  .price {
+    font-size: 13px;
+    text-align: center;
+  }
 }
+
