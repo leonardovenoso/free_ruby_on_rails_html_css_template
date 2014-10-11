@@ -48,7 +48,7 @@
   }
 
   .title {
-    font-size: $font-title-size;
+    font-size: $big-text-size;
     line-height: 22px;
     width: 100%;
     text-align: center;
@@ -76,7 +76,7 @@
   color: $white;
   height: $brand-size;
   min-width: 8%;
-  font-size: 13px;
+  font-size: $regular-text-size;
 
   &:hover{
     background-color: $red;
@@ -88,7 +88,7 @@
   width: 100%;
   margin-top: $margin-top-separator;
   color: white;
-  font-size: $font-title-size;
+  font-size: $big-text-size;
   line-height: $brand-size;
 
   .title {
@@ -104,7 +104,6 @@
   height: auto;
   background-color: $white;
   box-sizing: border-box;
-
 }
 
 .box-button {
@@ -156,6 +155,7 @@
   margin-bottom: auto;
   margin-top: $margin-top-separator;
   justify-content: space-between;
+  padding-left: 12px;
 
   .image {
 
@@ -163,21 +163,59 @@
 
   .description {
     margin-top: 5px;
-    font-size: 10px;
+    font-size: $small-text-size;
   }
 
   .old-price {
     margin-top: 5px;
-    font-size: 10px;
+    font-size: $small-text-size;
     text-decoration: line-through;
     text-align: center;
   }
 
   .price {
     margin-top: 5px;
-    font-size: 13px;
+    font-size: $medium-text-size;
     text-align: center;
     padding-bottom: 15px;
   }
 }
 
+.footer {
+  width: 100%;
+  color: $white;
+  line-height: $brand-size;
+  height: $brand-size;
+  background-color: $black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  cursor: pointer;
+  justify-content: flex-start;
+  font-size: $regular-text-size;
+
+  .button {
+    box-sizing: border-box;
+    border-right: 1px;
+    border-right-color: $white;
+    border-right-style: dotted;
+    padding-left: $margin-top-separator;
+    padding-right: $margin-top-separator;
+  }
+}
+
+.country-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: $margin-top-separator;
+
+  li {
+    display: inline;
+    font-size: $small-text-size;
+
+    &:not(:last-child):after {
+      content: ' | ';
+    }
+  }
+}
