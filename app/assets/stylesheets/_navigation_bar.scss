@@ -16,7 +16,7 @@
 }
 
 .brand {
-  background-color: $red;
+  background-color: $black;
   color: $white;
   height: $brand-size;
   width: 60px;
@@ -27,29 +27,32 @@
 
 .search {
   float: left;
+  display: flex;
 
   input {
     height: 36px;
     padding: 0;
     margin: 0;
     border: 2px solid;
-    border-color: $red;
-    padding-left: 30px;
+    border-color: $black;
+    padding-left: $padding-left;
+
+    padding-right: $padding-left;
     font-size: 15px;
     color: $alizarin;
     float: left;
-
-    background: image_url('search.png');
-    background-repeat: no-repeat;
-    background-color: $white;
-    background-size: 25px 25px;
-    background-position: left center;
-    background-origin:padding-box;
   }
 
   input:focus {
     outline: none;
   }
+}
+
+.menu-button-red {
+  @extend .menu-button;
+  background-color: $black;
+  float: left;
+  width: 55px !important;
 }
 
 .menu-button-dark {
@@ -60,11 +63,6 @@
 .menu-button-light {
   @extend .menu-button;
   background-color: $light-gray;
-}
-
-.menu-button-red {
-  @extend .menu-button;
-  background-color: $alizarin;
 }
 
 

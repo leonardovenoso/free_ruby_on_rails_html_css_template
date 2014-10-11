@@ -62,11 +62,34 @@ body {
 }
 
 @media all and (max-width: 799px) {
+  .menu-buttons {
+    display: none;
+  }
+
   .container {
     width: 100%;
   }
 
   .menu-button {
-    width: 100% !important;
+    width: 100%;
+  }
+
+  .footer {
+    .button {
+      width: 100%;
+    }
+  }
+
+  .search {
+    input {
+      width: 50px;
+    }
+  }
+
+  .box-button {
+    height: 90px;
+    width: 90px;
+    line-height: 90px;
+    font-size: $regular-text-size;
   }
 }
