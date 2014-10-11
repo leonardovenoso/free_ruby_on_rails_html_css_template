@@ -9,6 +9,10 @@ body {
   font-family: 'FontAwesome';
 }
 
+.responsive-menu {
+  display: none;
+}
+
 .container {
   width: 80%;
   margin: auto;
@@ -72,6 +76,10 @@ body {
 
   .menu-button {
     width: 100%;
+  }
+
+  .responsive-menu {
+    display: block;
   }
 
   .footer {

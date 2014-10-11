@@ -1,11 +1,6 @@
 @import 'variables';
 @import 'colors';
 
-
-.hide {
-  display: none;
-}
-
 ::-webkit-input-placeholder {
   color: $clouds;
 }
@@ -226,12 +221,14 @@
 }
 
 .responsive-menu {
+  background-color: $alizarin;
   display: block;
   float: right;
   border: 3px solid;
   border-color: white;
   box-sizing: border-box;
   cursor: pointer;
+
   span {
     background-color: $white;
     height: 2px;
