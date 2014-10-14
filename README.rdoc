@@ -3,7 +3,9 @@ This is an Online Store FREE template. It means, you can use and modify it
 
 <b>Would you like to hire me?</b>
 
+
 Contact me at: leonardo.venoso@live.com  | leonardo.ariel.venoso@gmail.com
+
 
 Skype: leonardo_venoso
 
@@ -18,4 +20,6 @@ Ruby on Rails template:
     * SASS
     * FONT-AWSOME
 
+
+[VISIT THE TEMPLATE AT](http://enigmatic-beyond-7028.herokuapp.com/)
 

@@ -4,14 +4,14 @@
     <data-source source="LOCAL" name="Rails free_ruby_on_rails_html_css_template: development" uuid="0f4a515d-8106-4c15-aa85-a8e4057a25e7">
       <driver-ref>sqlite.xerial</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:online_store</jdbc-url>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/online_store</jdbc-url>
       <user-password>dfdadfc5dfd9dfdedfcddfd8dfcfdfd9</user-password>
       <libraries />
     </data-source>
     <data-source source="LOCAL" name="Rails free_ruby_on_rails_html_css_template: test" uuid="0f01d3e6-a137-465b-b874-a56675c24a1e">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql:online_store</jdbc-url>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/online_store</jdbc-url>
       <user-password>dfdadfc5dfd9dfdedfcddfd8dfcfdfd9</user-password>
       <libraries />
     </data-source>
