@@ -3,4 +3,10 @@
   <data-source source="LOCAL" name="Rails free_ruby_on_rails_html_css_template: development" uuid="0f4a515d-8106-4c15-aa85-a8e4057a25e7">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails free_ruby_on_rails_html_css_template: test" uuid="0f01d3e6-a137-465b-b874-a56675c24a1e">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails free_ruby_on_rails_html_css_template: production" uuid="65f16d8e-d3c1-4197-b396-4b2c5921e257">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>
