@@ -65,7 +65,7 @@ body {
   background-color: $dark-gray;
 }
 
-@media all and (max-width: 799px) {
+@media only screen and (max-width: 799px) {
   .menu-buttons {
     display: none;
   }
