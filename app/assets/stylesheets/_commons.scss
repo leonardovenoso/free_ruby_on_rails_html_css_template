@@ -157,6 +157,7 @@
   margin-top: $margin-top-separator;
   justify-content: space-between;
   padding-left: 12px;
+  text-align: center;
 
   .image {
 
@@ -191,7 +192,6 @@
   height: auto;
   background-color: $black;
   @extend .flex-row;
-
 
   .button {
     box-sizing: border-box;
